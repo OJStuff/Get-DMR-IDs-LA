@@ -49,7 +49,7 @@ Denne kommandoen viser hvordan du får hjelp til å bruke programmet:
 
 ### Eksempel 2
 
-Denne kommandoen spesifiserer å laste ned en oppdatert rå DMR ID-brukerdatabase, og deretter opprette formatert eksportfil for region 2 (Europa). Filformatet vil være for standard filformat (AnyTone D878/D578) og filen vil få navnet "users-anytone.csv":
+Denne kommandoen spesifiserer å laste ned en oppdatert rå DMR ID-brukerdatabase og norsk brukerdatabase fra NKOM, og deretter opprette formatert eksportfil for region 2 (Europa). Filformatet vil være for standard filformat (AnyTone D878/D578) og filen vil få navnet "users-anytone.csv":
 
     >python getdmridsla.py -d -dla -r 2
 
