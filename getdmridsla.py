@@ -1,7 +1,7 @@
 """
-Environment: Thonny IDE v4.1.4 and builtin Python v3.10.11.
+Environment: Thonny IDE v4.1.4 and builtin Python v3.12.7.
 Copyright: Released under CC BY-SA 4.0
-Author: GitHub/OJStuff, June 23, 2024, v1.0
+Author: GitHub/OJStuff, November 20, 2024, v1.1
 """
 
 import sys
@@ -457,7 +457,7 @@ def dmrUpdateLA(data: list) -> list[dict]:  # Update getdmrids.py -> LA version
     dataLA: list = []
 
     if fileExist(fileLA):
-        dataLA = csvLoad(fileLA, "rt", "", "ansi", ";")
+        dataLA = csvLoad(fileLA, "rt", "", "latin-1", ";")
         print(f'Updating IDs from "{fileLA}"')
         for x in data:
             ccode = int(str(x["radio_id"])[:3])
